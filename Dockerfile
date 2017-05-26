@@ -16,7 +16,6 @@ RUN tar -xzf /tmp/v3.18.1.tar.gz -C /app/ --strip-components=1
 RUN ls /app
 RUN rm -f /tmp/v3.18.1.tar.gz
 RUN npm install
-RUN grunt build
 
 ENV NODE_ENV prod
 
